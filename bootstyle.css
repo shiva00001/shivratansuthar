@@ -1,0 +1,154 @@
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 12px;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 800;
+    color: #39c9bb;
+    letter-spacing: 2.5px;
+    display: flex;
+    align-items: center;
+}
+div#navbarNavAltMarkup {
+    margin-right:28px;
+    justify-content: end;
+}
+.navbar-nav a{
+    color:#39c9bb;
+    font-weight: 800;
+    font-size: 18px;
+}
+nav .navbar-brand:hover{
+    color: aqua;
+}
+.navbar-nav a:hover
+{
+    color: aqua;
+}
+.navbar-nav .nav-link.active{
+    color:#39c9bb;
+}
+.navbar-nav .nav-link.active:hover{
+   color: aqua;
+}
+.navbar-toggler{
+    font-size: medium;
+    background-color: aqua;
+}
+div#home{
+   margin-top:70px;
+}
+.container{
+    margin-top: 110px;
+}
+.col-md-7{
+    padding: 15px;
+}
+div#contact{
+    margin: 15px;
+}
+.shivlo{
+    border: 10px solid white;
+    border-radius: 147px;
+}
+.t{
+    margin: 40px;
+}
+
+.line{
+    position: relative;
+    top:10px;
+     height: 1px;
+     width: 100px;
+     background-color: rgb(95, 172, 172);
+     display:block;
+     margin: 0 auto;
+     padding: 0;
+}
+.touch{
+    padding: 5px;
+    color:#333333;
+   position: relative;
+   top: 10px;
+   font-family: inherit;
+   font-weight:600;
+   font-size: 22px;
+   text-align: center;
+}
+.container text center{
+    padding: 5%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+.row.featurette{
+    background-color: aquamarine;
+}
+.row{
+    padding: 5%;
+    justify-content: center;
+}  
+.single-contact{
+    padding: 5%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+.fa{
+    font-size: 38px;
+}
+.fa:hover{
+    color: aqua;
+}
+.single-contact h2{
+    font-family: 'Poppins', sans-serif; 
+    line-height: 2.8;
+    font-size: 20px;
+}
+.social{
+    color: black;
+    display:flex;
+   font-size: 27px;
+   justify-content: space-evenly;   
+}
+.social i.fa {
+    font-size: 18px;
+    color: black;
+}
+.social i.fa:hover{
+    color: aqua;
+}
+i.fa.fa-github{
+    color: black;
+}
+i.fa.fa-github:hover{
+    color: aqua;
+}
+.foot{
+    color: white;
+    height: fit-content;
+    background-color:black;
+    display: grid;
+    justify-content: center;
+}
+
+.connect{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.k{
+    font-weight: bolder;
+}
+.connect i{
+    color: white;
+}
+.connect i.fa{
+    font-size: 18px;
+    color: white;
+}
+.connect i.fa:hover{
+    color: aqua;
+}
+@media screen and(max-width:1080px) {
+    #home{
+        margin-top:65px;
+    }
+}
