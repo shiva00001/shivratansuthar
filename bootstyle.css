@@ -96,6 +96,13 @@ div#contact{
 .fa:hover{
     color: aqua;
 }
+.card-img-top{
+    width: 150px;
+}
+.card{
+    border-radius: 125px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 .single-contact h2{
     font-family: 'Poppins', sans-serif; 
     line-height: 2.8;
