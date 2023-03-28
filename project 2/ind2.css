@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-10-full.jpg");
+    background-color:antiquewhite;
+}
+.head{
+    margin: 5px;
+    border-radius: 100px;
+    width: 30vw;
+    height: 80px;
+    background-color: black;
+    color: aquamarine;
+}
+.name{
+    font-family: 'Delicious Handrawn', cursive;
+    padding-top: 5%;
+    text-align: center;
+}
+form{
+    padding: 5px;
+    width: 50vw;
+    position: absolute;
+    left: 25%;
+    margin: 10px;
+}

@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.clock{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:70px;
+}
+.name{
+    font-family:Arial, Helvetica, sans-serif;
+    color: aqua;
+    left: 32%;
+    top: 67%;
+    position: absolute;
+  }
+}
