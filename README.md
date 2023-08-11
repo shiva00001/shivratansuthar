@@ -1,4 +1,4 @@
-# Project-05
+# Project-01
 Portfolio website 
 To Visit My Website Link is :  https://shivratansutharcom.netlify.app/#Home
 
@@ -21,8 +21,4 @@ This was a website built to showcase my web design skiils.
 
 
 
-## Homepage visuals
-
-
-![Imgur](file:///C:/Users/DELL/OneDrive/Pictures/Screenshots/Screenshot%20(22).png?1).
 
