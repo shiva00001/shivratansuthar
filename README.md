@@ -7,7 +7,7 @@ This was a website built to showcase my web design skiils.
 
 
 
-## Project timeline and technologies used
+## In My Protfolio it have.
 * My web design skill set.
 * About me.
 * Get in Touch with me by my protfolio
