@@ -1,58 +1,176 @@
-.navbar-brand{
-    font-family: 'Poppins', sans-serif;
-    padding-left: 12px;
-    text-transform: uppercase;
-    font-size: 26px;
-    font-weight: 800;
-    color: #39c9bb;
-    letter-spacing: 2.5px;
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  color: #eee;
+  min-height: 100vh;
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("backimage.jpg");
+    background-size:cover;
+}
+.navbar.fixed {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding:15px;
+    position: fixed;
+    background-color: #222; 
+    transition: background-color 0.1s;
+  }
+.navbar{
+    text-decoration: none;
+    position: fixed;
+    padding: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: max-content;
+    box-sizing: border-box;
 }
-div#navbarNavAltMarkup {
-    margin-right:28px;
-    justify-content: end;
+.navbar a{
+    text-decoration: none;
+    color: white;
 }
-.navbar-nav a{
-    color:#39c9bb;
-    font-weight: 800;
-    font-size: 18px;
+.navbar .logo{
+    font-size:2em;
+    font-weight: bold;
 }
-nav .navbar-brand:hover{
-    color: aqua;
+.navbar .nav-links ul{
+    display: flex;
 }
-.navbar-nav a:hover
-{
-    color: aqua;
+.navbar .nav-links ul li{
+    font-size: 1.1em;
+    font-weight: bolder;
+    margin: 0 25px;
 }
-.navbar-nav .nav-link.active{
-    color:#39c9bb;
+.navbar .nav-links ul li .active {
+    color:#ed3c57;
+    font-weight: 600;
 }
-.navbar-nav .nav-link.active:hover{
-   color: aqua;
+.navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+    top:35px;
+    right:50px;
+    width: 35px;
 }
-.navbar-toggler{
-    font-size: medium;
-    background-color: aqua;
+    
+ .Home{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    top: 40%;
 }
-div#home{
-   margin-top:70px;
+.Home .Heading{
+    color: red;
+    font-weight:bolder;
+    letter-spacing: 2px; 
+    font-family: 'Bungee';
 }
-.container{
-    margin-top: 110px;
+.Home .name{
+    font-size: 3.0em;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: bolder;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.Home .subheading{
+    opacity: 0.8;
+    letter-spacing: 2px;
+    font-family: 'Cutive Mono';
+}
+.btn{
+   
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin: 5px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.connect{
+    width: 25vw;
+    display: flex;
+    justify-content:space-evenly;
+    margin:2%;
+}
+.connect a{
+    font-size: 1.2em;
+    color: white;
+
+}
+.navbar .nav-links ul li a:hover{
+    color: #ed3c57;
+}
+.connect a:hover{
+    color: #ed3c57;
+}
+.navbar .logo:hover{
+    color: #ed3c57;
+}
+.btn:hover{
+    color: #ed3c57;
 }
 .col-md-7{
     padding: 15px;
 }
-div#contact{
-    margin: 15px;
-}
 .shivlo{
-    border: 10px solid white;
+    box-shadow: rgb(255,215,0) 0px 2px 10px 4px;
     border-radius: 147px;
 }
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+    background-color:#212121;
+    padding: 5%;
+  }
+.row.featurette{
+    background-color: #212121;
+}
+.row{
+    width: 100vw;
+    padding: 5%;
+    justify-content: center;
+}  
 .t{
     margin: 40px;
+}
+h1{
+    color:rgb(255,215,0);
+}
+h2{
+    color:rgb(255,215,0);
+}
+h3{
+    opacity: 0.5;
+}
+.container1.text-center{
+    width: 100vw;
+}
+.single-contact{
+    background-color: #212121;
+    padding: 5%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .line{
@@ -60,14 +178,14 @@ div#contact{
     top:10px;
      height: 1px;
      width: 100px;
-     background-color: rgb(95, 172, 172);
+     background-color:white;
      display:block;
      margin: 0 auto;
      padding: 0;
 }
 .touch{
     padding: 5px;
-    color:#333333;
+    color:rgb(255,215,0);
    position: relative;
    top: 10px;
    font-family: inherit;
@@ -75,74 +193,104 @@ div#contact{
    font-size: 22px;
    text-align: center;
 }
-.container text center{
-    padding: 5%;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-  }
-.row.featurette{
-    background-color: aquamarine;
-}
-.row{
-    padding: 5%;
-    justify-content: center;
-}  
-.single-contact{
-    padding: 5%;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-}
-.fa{
-    font-size: 38px;
-}
-.fa:hover{
-    color: aqua;
-}
-.card-img-top{
-    width: 150px;
-}
-.card{
-    border-radius: 125px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
 .single-contact h2{
     font-family: 'Poppins', sans-serif; 
     line-height: 2.8;
     font-size: 20px;
 }
 .social{
-    color: black;
-    display:flex;
+    padding: 4%;
+    color: white;
+    display: flex;
    font-size: 27px;
    justify-content: space-evenly;   
 }
+i.fa{
+    font-size: 18px;
+    color: white;
+}
+p{ 
+    color: white;
+}
 .social i.fa {
     font-size: 18px;
-    color: black;
+    color: white;
 }
 .social i.fa:hover{
     color: aqua;
 }
 i.fa.fa-github{
-    color: black;
+    color: white;
 }
 i.fa.fa-github:hover{
     color: aqua;
 }
-.foot{
+.container1.text-center .hh .rr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education {
+    background-color: #212121;
+    padding: 20px;
+    margin: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .education h2 {
+    margin-bottom: 15px;
+  }
+  
+  .education-entry {
+    margin-bottom: 20px;
+  }
+  
+  .education-entry h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .degree {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .date {
+    color: #999;
+  }
+  .contact-container {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+  }
+  .footer {
+    background-color: #333;
+    color: #eee;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .foot{
     color: white;
     height: fit-content;
-    background-color:black;
-    display: grid;
-    justify-content: center;
 }
-
 .connect{
-    display: flex;
-    align-content: center;
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
     justify-content: space-evenly;
 }
 .k{
     font-weight: bolder;
+}
+#b{
+    color:rgb(255,215,0);
 }
 .connect i{
     color: white;
@@ -154,8 +302,95 @@ i.fa.fa-github:hover{
 .connect i.fa:hover{
     color: aqua;
 }
-@media screen and(max-width:1080px) {
-    #home{
-        margin-top:65px;
+@media screen and (max-width:988px){
+    .navbar{
+        height: 80px;
+        padding: 0;
+    }
+    .navbar .logo{
+        font-size:larger;
+        position: absolute;
+        top: 40px;
+        left: 30px;
+    }
+    .navbar .menu-hamburger{
+        display: block;
+    }
+    .nav-links{
+        top :0;
+        left:0;
+        position: absolute;
+        background-color: rgba(255,255,255,0.20);
+        backdrop-filter: blur(2em);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .Home.mobile-menu{
+        margin-left:-100%;
+    }
+    .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .nav-links ul li{
+        margin: 25px 0;
+        font-size: 1.2em;
+    }
+    .Home .name {
+        letter-spacing: 1px;
+        font-size: 2em;
+    }
+    .Home .subheading{
+        font-size: 0.8em;
+        letter-spacing: 1px;
+    }
+    .connect a{
+        padding: 12%;
+        font-size: 1em;
+    }   
+   
+    
+    .row {
+        padding: 1%;
     }
 }
+@media screen and (max-width:990px){
+    .shivlo{
+        width:35vh;
+    }
+}
+@media screen and (max-width:767px){
+    .container{
+        text-align: center;
+    }
+    .shivlo{
+        height: 25vh;
+        width:25vh;
+    }
+    .lead{
+        font-size: 92%;
+    }
+}
+@media screen and (max-width:365px){
+    .navbar .logo{
+        font-size: 100%;
+    }
+    .Home .name{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .education {
+        width: 90%;
+        padding: 15px;
+    }
+  }
